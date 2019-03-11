@@ -30,6 +30,7 @@ list(APPEND HEADERS
     ${CMAKE_CURRENT_LIST_DIR}/graph/igraphmodel.h
     ${CMAKE_CURRENT_LIST_DIR}/graph/imutablegraph.h
     ${CMAKE_CURRENT_LIST_DIR}/loading/biopaxfileparser.h
+    ${CMAKE_CURRENT_LIST_DIR}/loading/dotfileparser.h
     ${CMAKE_CURRENT_LIST_DIR}/loading/gmlfileparser.h
     ${CMAKE_CURRENT_LIST_DIR}/loading/graphmlparser.h
     ${CMAKE_CURRENT_LIST_DIR}/loading/graphsizeestimate.h
@@ -114,8 +115,13 @@ list(APPEND HEADERS
 list(APPEND SHARED_SOURCES
     ${CMAKE_CURRENT_LIST_DIR}/graph/elementtype.cpp
     ${CMAKE_CURRENT_LIST_DIR}/loading/biopaxfileparser.cpp
+<<<<<<< HEAD
     ${CMAKE_CURRENT_LIST_DIR}/loading/matlabfileparser.cpp
     ${CMAKE_CURRENT_LIST_DIR}/loading/adjacencymatrixfileparser.cpp
+=======
+    ${CMAKE_CURRENT_LIST_DIR}/loading/matfileparser.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/loading/dotfileparser.cpp
+>>>>>>> DOT file parser stub
     ${CMAKE_CURRENT_LIST_DIR}/loading/gmlfileparser.cpp
     ${CMAKE_CURRENT_LIST_DIR}/loading/graphmlparser.cpp
     ${CMAKE_CURRENT_LIST_DIR}/loading/graphsizeestimate.cpp
